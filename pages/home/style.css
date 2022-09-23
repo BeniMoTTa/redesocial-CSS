@@ -11,7 +11,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-
+    margin-top: 20px;
 }
 .post-user{
     width: 100%;
@@ -54,8 +54,8 @@
     justify-content: space-between;
     margin-top: 10px;
     align-items: center;
-  
 }
+
 .cards-sugests{
     display: flex;
     flex-direction: row;
@@ -148,6 +148,3 @@
 
 }
 
-@media(min-width:800px){
-
-}

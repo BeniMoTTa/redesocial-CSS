@@ -40,9 +40,10 @@
     position: relative;
     height: 750px;
     overflow-y: auto;
-    z-index: auto;
+    
+
     }
-    .aparecerModal .modal{
+    .showModal .modal{
         animation: modalAnimation 2s ease;
     }
 
@@ -78,6 +79,8 @@
     line-height: 40px;
     font-weight: 700;
     font-size: 28px;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 
@@ -138,5 +141,6 @@ line-height: 28px;
  .paragraph-modal{
     margin-bottom: 25px;
     text-align: justify;
-    width: 70vw;
+    width: 90%;
+    margin-bottom: 50px;
  }
