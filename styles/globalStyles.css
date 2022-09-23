@@ -7,21 +7,28 @@
 }
 
 :root{
-    --color-grey-1: #212529;
+    --color-primary: #212529;
     --color-grey-2: #495057;
     --color-white-fixed: #ffffff;
+    --color-buttons-login:#4263EB;
+    --color-X: #868E96;
+    --color-info: #495057;
     --radius-1: 0.25rem;
     --font-family-1: "Inter", sans-serif;
+    --color-modal-default: rgba(33, 37, 41, 0.8);
+    --color-background-X:#F8F9FA;
+
 }
 
 body{
     font-family: var(--font-family-1);
 }
 
-.container{
-    max-width: 1200px;
+.container-general{
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 1rem;
+    overflow:none;
 }
 
 ul{

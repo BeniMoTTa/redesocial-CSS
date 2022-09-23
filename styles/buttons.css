@@ -1,0 +1,69 @@
+
+.buttonPost{
+    width: 69px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-white-fixed);
+    background-color: var(--color-buttons-login);
+    border: 2px solid var(--color-buttons-login);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttonPost:hover{
+    border: 2px solid;
+  }
+
+
+
+.button-open{
+    width: 92px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-white-fixed);
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-open:hover{
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-white-fixed);
+    color: var(--color-primary);
+    transition: 0.5s ease;
+  }
+
+
+  .botaoSeguir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    border: 2px solid #000;
+    height: 30px;
+    width: 70px;
+    font-family: var(--font-primary);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    animation: seguindo 1s ease-in;
+    margin-top: 10px;
+  }
+  
+  
+  
+  @keyframes seguindo {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+      }
+    
+  }

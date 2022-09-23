@@ -1,0 +1,153 @@
+.post-build{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info-user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.area-post-active{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.post-user{
+    width: 100%;
+    max-width: 713px;
+    margin-right: 15px;
+}
+
+.name-user{
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 20px;
+}
+.user-job{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-info);
+    margin-top: 6px;
+}
+
+
+.img-profile{
+    width: 52px;
+    height: 52px;
+}
+
+.container-area{
+    width: 100%;
+    margin-top: 100px;
+}
+.container-aside{
+    margin-top: 40px;
+}
+
+
+.area-button-post{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+  
+}
+.cards-sugests{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    overflow-x:scroll;
+    margin-top: 25px;
+}
+
+.title-article{
+    font-family: var(--font-primary);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.list-sugests{
+    margin-right: 20px;
+    height: 155px;
+    min-width: 250px;
+}
+
+.paragrafo-article{
+    font-family: var(--font-primary);
+    font-size: 14px;
+    margin-right: 20px;
+    line-height: 28px
+    
+}
+
+.likeCount{
+    display: flex;
+    flex-direction: row;
+    width: 22.76px;
+    height: 20px;
+}
+.like-click{
+    margin-right: 20px;
+}
+
+.title-areaPosts{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.post-article{
+    margin-top: 30px;
+}
+
+@media(min-width:1000px){
+    .container-area{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+    }
+    .container-general{
+        overflow-x: none;
+    }
+    .container-aside{
+        width: 400px;
+        margin-top: 0;
+        margin-left: 100px;
+        height: 490px;
+        height: 1800px;
+    }
+    .container-posts{
+        width: 720px;
+    }
+    .sugests{
+        position: sticky;
+        top: 100px;
+        right: 0;
+    }
+    .cards-sugests{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 600px;
+    }
+    .list-sugests{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        flex-direction: row;
+        width: 400px;
+        height: 120px;
+    }
+    .post-user{
+        height: 320px;
+    }
+
+}
+
+@media(min-width:800px){
+
+}
