@@ -120,6 +120,7 @@
         margin-left: 100px;
         height: 490px;
         height: 1800px;
+        overflow: none;
     }
     .container-posts{
         width: 720px;
@@ -128,11 +129,13 @@
         position: sticky;
         top: 100px;
         right: 0;
+ 
     }
     .cards-sugests{
         flex-direction: column;
         margin-left: 0px;
         width: 600px;
+        overflow: hidden;
     }
     .list-sugests{
         display: flex;
