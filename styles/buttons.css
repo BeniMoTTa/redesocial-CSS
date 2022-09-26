@@ -37,7 +37,7 @@
   }
 
 
-  .botaoSeguir{
+  .btnFollow{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +66,20 @@
         transform: scale(1);
       }
     
+  }
+
+
+  .buttonFollowing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 28px;
+    background-color: var(--color-buttons-login);
+    color: var(--color-white-fixed);
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+
   }
